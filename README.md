@@ -1,42 +1,99 @@
-﻿# 🧠 Strategic Research Analyst Agent
+# 🧠 Strategic Research Analyst Agent
 
-An autonomous multi-step AI agent that performs structured research, evidence evaluation, conflict detection, and strategic synthesis.
+🔗 **Live Demo:**  
+https://researchagent-gmteqfvbtcjkka8wyjyhrj.streamlit.app/
 
-## 🚀 Features
+---
 
-- Multi-step reasoning (LangGraph)
-- Autonomous search tool usage (Tavily)
-- Evidence scoring & credibility heuristics
-- Iterative refinement loop
-- Conflict detection & contradiction analysis
-- Confidence scoring with evolution tracking
-- Executive summary + structured report generation
-- Interactive Streamlit dashboard UI
+## 📌 Overview
+
+The **Strategic Research Analyst Agent** is a stateful, multi-step AI system designed to perform structured research rather than act as a simple chatbot.
+
+It:
+
+- Decomposes complex queries into strategic dimensions  
+- Uses external search tools (Tavily API)  
+- Scores evidence credibility  
+- Iteratively refines research if confidence is low  
+- Detects conflicting viewpoints  
+- Generates a structured strategic intelligence report  
+- Quantifies confidence in its findings  
+
+Built using **LangGraph** for orchestration and **Streamlit** for UI.
+
+---
 
 ## 🏗 Architecture
 
-User Query
-→ Domain Detection
-→ Strategic Planning
-→ Query Generation
-→ Tool-based Evidence Gathering
-→ Evidence Scoring
-→ Confidence Evaluation
-→ Iterative Refinement (if needed)
-→ Conflict Detection
-→ Final Strategic Synthesis
+The agent follows a bounded refinement workflow:
+
+<img width="248" height="929" alt="image" src="https://github.com/user-attachments/assets/fa5bfa90-1a72-41d1-b03b-06c697cee4a0" />
+
+## 🔁 Core Capabilities
+
+- ✅ Multi-step reasoning  
+- ✅ Autonomous tool usage  
+- ✅ Self-evaluation & refinement loop  
+- ✅ Evidence scoring  
+- ✅ Conflict detection  
+- ✅ Confidence tracking  
+- ✅ Transparent thinking log  
+
+---
+
+## ⚠ Hallucination Mitigation
+
+The system reduces hallucination risk through:
+
+- External tool grounding (Tavily search)
+- Evidence scoring heuristics
+- Confidence threshold control
+- Iteration cap to prevent infinite loops
+- Structured prompt engineering
+
+---
+
+## 🧪 Stress Testing
+
+Tested against:
+
+- Ambiguous queries  
+- Controversial topics  
+- Sparse evidence domains  
+- Biased/adversarial prompts  
+
+The refinement mechanism improves reliability before final synthesis.
+
+---
 
 ## 🛠 Tech Stack
 
-- LangGraph
-- Groq (Llama 3.3 70B)
-- Tavily Search API
-- Streamlit
-- Python
+- Python  
+- LangGraph  
+- Groq (LLM Provider)  
+- Tavily API  
+- Streamlit  
+   
 
-## 📊 Demo
+---
 
-Run locally:
+## 🎯 Why This Project Is Different
 
+This is not a single-pass chatbot.
 
+It is a **stateful autonomous research workflow** that:
+
+- Plans  
+- Acts  
+- Evaluates  
+- Improves  
+- Synthesizes  
+
+Designed for strategic decision support rather than conversational output.
+
+---
+
+## 👩‍💻 Author
+
+Krishnahitha Jagannatham
 
