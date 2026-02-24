@@ -27,7 +27,21 @@ Built using **LangGraph** for orchestration and **Streamlit** for UI.
 
 The agent follows a bounded refinement workflow:
 
-<img width="248" height="929" alt="image" src="https://github.com/user-attachments/assets/fa5bfa90-1a72-41d1-b03b-06c697cee4a0" />
+User Input
+  ↓
+Strategic Planning
+  ↓
+Tool-Based Evidence Gathering
+  ↓
+Evidence Scoring
+  ↓
+Confidence Evaluation
+  ↓
+Refinement Loop (if low confidence)
+  ↓
+Conflict Detection
+  ↓
+Final Strategic Intelligence Report
 
 ## 🔁 Core Capabilities
 
@@ -96,4 +110,5 @@ Designed for strategic decision support rather than conversational output.
 ## 👩‍💻 Author
 
 Krishnahitha Jagannatham
+
 
